@@ -1,0 +1,13 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    # Exclude the /assets directory from rewriting
+    RewriteRule ^assets - [L]
+
+    # Rewrite all requests to index.php
+    RewriteRule ^(.*)$ index.php [L,QSA]
+</IfModule>
+
+# Disable directory listing
+Options -Indexes

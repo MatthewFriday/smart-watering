@@ -1,0 +1,21 @@
+{
+    "database": {
+        "user": "controller",
+        "pass": "titkosjelszo",
+        "host": "127.0.0.1",
+        "database": "smart-watering"
+    },
+    "hardware": {
+        "pinMapping": {
+            "MOISTURE": 2,
+            "RELAY": 5,
+            "LIGHT": 0,
+            "DHT11": 16
+        }
+    },
+    "logging": {
+        "path": "./log",
+        "debug": true
+    },
+    "pollingInterval": 5
+}
