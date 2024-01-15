@@ -1,0 +1,14 @@
+[Unit]
+Description=Controller service for Smart-watering
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=root
+Group=root
+ExecStart=/usr/bin/python3 /opt/controller/app.py
+
+[Install]
+WantedBy=multi-user.target
