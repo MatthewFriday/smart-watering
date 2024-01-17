@@ -16,6 +16,12 @@ sudo bash smart-watering/install.sh
 3. Weboldal elérése
 http://localhost/ vagy http://eszkoz.ip.cime/
 
+További információk elérhetőek a felhasználói útmutatóban.
+
+## Dokumentáció
+[Fejlesztői dokumentáció](/dokumentáció/Fejlesztői dokumentáció.pdf)
+[Felhasználói útmutató](/dokumentáció/Felhasználói útmutató.pdf)
+
 ## Képernyőképek
 ### Aktuális állapot megtekintése
 ![Aktuális állapot](/pictures/overview.jpg)
@@ -31,7 +37,12 @@ http://localhost/ vagy http://eszkoz.ip.cime/
 
 ## Felhasznált 3rd-party projektek
 
+### Controller
 - **[grove.py](https://github.com/Seeed-Studio/grove.py) by Seeed-Studio**: Python library a SeeedStudio Grove eszközeihez [MIT]
 - **[Seeed_Python_DHT](https://github.com/Seeed-Studio/Seeed_Python_DHT) by Seeed-Studio**: Python library a DHT szenzor olvasásához [MIT]
 - **[python-pushover](https://github.com/Thibauth/python-pushover) by Thibauth**: Python library a Pushover szolgáltató API-jával való kommunikációhoz [GPL-3.0]
 - **[mysql-connector-python](https://dev.mysql.com/doc/connector-python/en/) by Oracle and/or its affiliates**: MySQL driver Python-hoz [GPL-2.0]
+
+### Web
+- **[Bootstrap](https://github.com/twbs/bootstrap) by Twitter**: Frontend keretrendszer [MIT]
+- **[jQuery](https://github.com/jquery/jquery)**: JavaScript library [MIT]
