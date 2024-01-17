@@ -19,8 +19,8 @@ http://localhost/ vagy http://eszkoz.ip.cime/
 További információk elérhetőek a felhasználói útmutatóban.
 
 ## Dokumentáció
-[Fejlesztői dokumentáció](/dokumentáció/Fejlesztői%20wdokumentáció.pdf)
-[Felhasználói útmutató](/dokumentáció/Felhasználói%20wútmutató.pdf)
+- [Fejlesztői dokumentáció](/dokumentáció/Fejlesztői%20dokumentáció.pdf)
+- [Felhasználói útmutató](/dokumentáció/Felhasználói%20útmutató.pdf)
 
 ## Képernyőképek
 ### Aktuális állapot megtekintése
